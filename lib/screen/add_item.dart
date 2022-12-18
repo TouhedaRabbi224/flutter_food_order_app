@@ -40,7 +40,7 @@ class _AddItemState extends State<AddItem> {
   @override
   Widget build(BuildContext context) {
     //return foods items
-    foodList = Provider.of<Foods>(context, listen: false);
+    foodList = Provider.of<Foods>(context,);
     return Scaffold(
       appBar: AppBar(
         title: Text('Add Item'),
